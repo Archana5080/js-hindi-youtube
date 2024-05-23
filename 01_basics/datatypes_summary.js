@@ -29,5 +29,15 @@ const myFunction = function(){
 console.log("he worldllo");
 }
 
-console.log(typeof bogNumber)
+console.log(typeof bigNumber)
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//********************************************Memory******************** */
+//stack(primitive) , heap (Non-primitive)
+let myYoutubename = "shubhamdubey.com"
+
+let anothername = myYoutubename
+
+console.log(anothername);
 
